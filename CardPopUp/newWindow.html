@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Janela</title>
+</head>
+<body>
+    <button onclick="openNewWindow()">Abrir Nova Janela</button>
+
+    <script>
+        function openNewWindow() {
+            // URL da página que você quer abrir na nova janela
+            var url = '../BlurLoading/index.html';
+
+            // Configurações opcionais da nova janela
+            var configuracoes = 'width=800,height=450';
+
+            // Abrir a nova janela
+            window.open(url, 'My Hero', configuracoes);
+        }
+    </script>
+</body>
+</html>
